@@ -2,7 +2,7 @@ This are assorted command-line tools for talking to the Wordnik API.
 
 # EXAMPLES (WORD USAGE)
 
- $> python word.py -c worknik.cfg -w 'python' -a examples
+ $> python word.py -c worknik.cfg -w 'python' -a examples (or 'definitions' or 'frequency' or nothing)
  # Man from Mundania
  
  	"Grey could guess why a python might be awkward, but the other wasn't clear."
