@@ -1,3 +1,5 @@
+This are assorted command-line tools for talking to the Wordnik API.
+
 # EXAMPLES (WORD USAGE)
 
  $> python word.py -c worknik.cfg -w 'python' -a examples
@@ -107,3 +109,7 @@
 
 [wordnik]
 api_key=APIKEY
+
+# SEE ALSO
+
+http://docs.wordnik.com/api
