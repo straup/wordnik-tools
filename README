@@ -33,7 +33,7 @@ This are assorted command-line tools for talking to the Wordnik API.
  
 # EXAMPLES (SUGGESTED AUTO-COMPLETION)
 
- $> python ./suggest.py -c worknik.cfg -w aaro -d
+ $> python ./suggest.py -c worknik.cfg -w aaro
  [0]	aaro
  [1038]	Aaron's
  [1000]	aaron
@@ -51,6 +51,8 @@ This are assorted command-line tools for talking to the Wordnik API.
  [120]	Aarons
  [120]	Aaronson
  
+# EXAMPLES (SUGGESTED AUTO-COMPLETION WITH DEFINITIONS)
+
  $> python ./suggest.py -c worknik.cfg -w aaro -d
  [0]	aaro
  
