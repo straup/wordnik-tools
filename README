@@ -1,0 +1,109 @@
+# EXAMPLES (WORD USAGE)
+
+ $> python word.py -c worknik.cfg -w 'python' -a examples
+ # Man from Mundania
+ 
+ 	"Grey could guess why a python might be awkward, but the other wasn't clear."
+ 
+ # Muti
+ # http://www.ubuntugeek.com/bandwidth-monitoring-tools-for-ubuntu-users.html
+ 
+ 	"Check which version of python is the default by running python - V"
+ 
+ # digg.com: Stories / Popular
+ # http://digg.com/programming/Python_Cheatsheet
+ 
+ 	"For when your python is about to explode!!!!"
+ 
+ # Blown to Bits The Lonely Man of Rakata, the Malay Archipelago
+ # http://www.gutenberg.org/dirs/2/3/3/7/23371/23371.txt
+ 
+ 	"It is said that the python is the only other creature that dares to attack the
+ 	orang-utan, and that when it does so victory usually declares for the man-
+ 	monkey, which bites and tears it to death."
+ 
+ # Negritos of Zambales
+ # http://www.gutenberg.org/dirs/2/0/3/2/20329/20329-8.txt
+ 
+ 	"Not infrequently the runners in the brush emerge carrying wild pigs which they
+ 	have seared up and killed, and if, by chance, a big snake is encountered, that
+ 	ends the hunt, for the capture of a python is an event." 
+ 
+# EXAMPLES (SUGGESTED AUTO-COMPLETION)
+
+ $> python ./suggest.py -c worknik.cfg -w aaro -d
+ [0]	aaro
+ [1038]	Aaron's
+ [1000]	aaron
+ [1000]	aaron montgomery ward
+ [1000]	aaron copland
+ [1000]	aaron burr
+ [1000]	aaron's rod
+ [1000]	Aaron's beard
+ [1000]	Aaron's-rod
+ [1000]	Aaron's-beard
+ [1000]	Aaronitic
+ [1000]	Aaronite
+ [1000]	Aaronic
+ [1000]	Aaronical
+ [120]	Aarons
+ [120]	Aaronson
+ 
+ $> python ./suggest.py -c worknik.cfg -w aaro -d
+ [0]	aaro
+ 
+ [1038]	Aaron's
+ 
+ [1000]	aaron
+ 	"The plant Arum maculatum. See Arum."
+ 
+ [1000]	aaron montgomery ward
+ 
+ [1000]	aaron copland
+ 
+ [1000]	aaron burr
+ 
+ [1000]	aaron's rod
+ 
+ [1000]	Aaron's beard
+ 
+ [1000]	Aaron's-rod
+ 	"In architecture, an ornament consisting of a straight rod from which
+ 	pointed leaves sprout on either side."
+ 	"A popular name of several plants with tall flowering stems, as the
+ 	goldenrod, the hag-taper, etc."
+ 
+ [1000]	Aaron's-beard
+ 	"A dwarf evergreen shrub, Hypericum calycinum, with large flowers (the
+ 	largest of the genus) and numerous stamens, a native of southeastern
+ 	Europe, and sometimes found in cultivation; St.-John'swort: so called
+ 	from the conspicuous hair-like stamens."
+ 	"The smoke-tree, Rhus Cotinus."
+ 	"A species of saxifrage (Saxifraga sarmentosa) found in cultivation;
+ 	Chinese saxifrage."
+ 
+ [1000]	Aaronitic
+ 	"Of or pertaining to the Aaronites."
+ 
+ [1000]	Aaronite
+ 	"A descendant of Aaron, the brother of Moses."
+ 
+ [1000]	Aaronic
+ 	"Pertaining to Aaron, the brother of Moses, or to the Jewish priestly
+ 	order, of which he was the first high priest: as, the Aaronic
+ 	priesthood; Aaronic vestments."
+ 	"In the Mormon hierarchy, of or pertaining to the second or lesser
+ 	order of priests. See priesthood and Mormon."
+ 
+ [1000]	Aaronical
+ 	"Pertaining to or resembling the Aaronic priesthood."
+ 
+ [120]	Aarons
+ 
+ [120]	Aaronson
+
+# SAMPLE CONFIG
+# store this in a file called wordnik.cfg (or whatever)
+
+[wordnik]
+api_key=APIKEY
